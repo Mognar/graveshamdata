@@ -47,16 +47,16 @@ div.tooltip {
   <h1>Gravesham Local Election Map 2019</h1>
     <script type="text/javascript">
       var width = 900;
-      var height = 900;
+      var height = 800;
 
       /* var projection = d3.geo.albers()
                     .scale(256000)
 					.center([33, 47])
                     .translate([-131000,130500]); */
 	var projection = d3.geo.mercator()
-                    .scale(250000)
+                    .scale(210000)
 					.center([33, 47])
-                    .translate([142750,29800]);
+                    .translate([119950,25050]);
 					
                 // create a path generator.
                 var path = d3.geo.path()

@@ -120,7 +120,7 @@ gradient.append("stop")
             .style("opacity", .9)
 			//.style("left", (d3.event.pageX) + "px")   
             //.style("top", (d3.event.pageY - 28) + "px")			
-            tooltip.html("<b>" + d.properties.WD13NM + "</b></br>" + d.properties.Councillor + "</br>" + d.properties.Councilparty) 
+            tooltip.html("<b>" + d.properties.WD13NM + "</b></br></br>" + d.properties.Councillor + "</br></br><b>" + d.properties.Councilparty + "</b>") 
           })          
           .on("mouseout", function(d) {   
             tooltip.transition()    
